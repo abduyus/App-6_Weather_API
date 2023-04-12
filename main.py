@@ -11,7 +11,7 @@ def home():
 
 @app.route("/api/v1/<station>/<date>")
 def about(station, date):
-    temperature = 23
+    temperature = 2
     return {"station": station,
             "date": date,
             "temperature": temperature}
